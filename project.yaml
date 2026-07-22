@@ -1,0 +1,73 @@
+# .project metadata for Keylime
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "keylime"
+name: "Keylime"
+description: "Bootstrap & Maintain Trust on the Edge / Cloud and IoT."
+type: "project"
+project_lead: "lukehinds" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#Keylime"
+    link: "https://cloud-native.slack.com/messages/keylime"
+    primary: true
+  - name: "#keylime"
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2020-09-22T00:00:00Z"
+    issue: "https://github.com/cncf/toc/pull/959" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/keylime/keylime"
+
+website: "https://keylime.dev/"
+
+artwork: "https://landscape.cncf.io/logos/keylime.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/keylime/keylime/blob/master/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "keylime/keylime"
+
+social:
+  twitter: "https://twitter.com/KeylimeProject"
+
+security:
+  policy:
+    path: "https://github.com/keylime/keylime/blob/master/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/keylime/keylime/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/keylime/keylime/blob/master/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/keylime/keylime/blob/master/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/keylime/keylime/blob/master/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/keylime/keylime/blob/master/README.md"
+
+landscape:
+  category: "Provisioning"
+  subcategory: "Security & Compliance"
+
+# CLOMonitor Score: 74/100
+# Documentation: 93 | License: 75 | Best Practices: 42 | Security: 68
