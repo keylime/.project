@@ -9,12 +9,10 @@ maintainers:
     teams:
       - name: "project-maintainers"
         members:
-          - lukehinds
-          - jetwhiz
-          - nabilschear
-          - amylily1011
-          - mpeters
+          - ansasaki
           - maugustosilva
-          - font
-          - axelsimon
-          - ashcrow
+          - mpeters
+          - THS-on
+          - stefanberger
+          - aplanas
+          - sergio-correia
