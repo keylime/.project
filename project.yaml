@@ -26,7 +26,7 @@ repositories:
 
 website: "https://keylime.dev/"
 
-artwork: "https://landscape.cncf.io/logos/keylime.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/keylime"
 
 # TODO: Add ADOPTERS.md if your project tracks adopters
 # adopters:
